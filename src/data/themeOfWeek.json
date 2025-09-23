@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "Las baladas noventeras que marcaron una generación",
+    "description": "Esta semana nos sumergimos en las canciones lentas que nos hicieron suspirar en los 90. Desde Roxette hasta Bryan Adams, un viaje a pura emoción."
+  },
+  {
+    "id": 2,
+    "title": "Los ritmos synth y la estética visual ochentera",
+    "description": "Un repaso a los sonidos de sintetizador que definieron los 80 y su inseparable conexión con la moda y los videoclips."
+  },
+  {
+    "id": 3,
+    "title": "Un repaso a las bandas latinas de los 90",
+    "description": "Recordamos a los grupos de rock y pop en español que rompieron fronteras y dejaron un legado imborrable."
+  }
+]

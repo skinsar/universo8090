@@ -1,0 +1,44 @@
+[
+  {
+    "id": 6,
+    "date": "2025-09-22",
+    "title": "Especial Rock Nacional de los 80",
+    "summary": "Un recorrido por las bandas que definieron el sonido del rock argentino en los 80, desde Soda Stereo hasta Sumo.",
+    "audioUrl": "#"
+  },
+  {
+    "id": 5,
+    "date": "2025-09-19",
+    "title": "Los One-Hit Wonders de los 90",
+    "summary": "Recordamos esas canciones que sonaron en todas partes pero cuyos artistas no volvimos a escuchar.",
+    "audioUrl": "#"
+  },
+  {
+    "id": 4,
+    "date": "2025-09-18",
+    "title": "Synth-Pop: Los Sonidos del Futuro (Ochentero)",
+    "summary": "Exploramos el auge de los sintetizadores y cómo bandas como Depeche Mode y Pet Shop Boys crearon la banda sonora de una década.",
+    "audioUrl": "#"
+  },
+  {
+    "id": 3,
+    "date": "2025-09-17",
+    "title": "Las Divas del Pop de los 90",
+    "summary": "Un homenaje a las voces femeninas que dominaron los charts: Mariah Carey, Whitney Houston, Britney Spears y más.",
+    "audioUrl": "#"
+  },
+  {
+    "id": 2,
+    "date": "2025-09-16",
+    "title": "El Sonido de las Películas de los 80",
+    "summary": "Canciones icónicas de bandas sonoras que se volvieron más famosas que las propias películas. De 'Flashdance' a 'Top Gun'.",
+    "audioUrl": "#"
+  },
+  {
+    "id": 1,
+    "date": "2025-09-15",
+    "title": "El Grunge y la revolución de Seattle",
+    "summary": "Analizamos el impacto de Nirvana, Pearl Jam y Soundgarden en la música de principios de los 90.",
+    "audioUrl": "#"
+  }
+]
