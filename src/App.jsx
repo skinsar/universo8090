@@ -6,27 +6,28 @@ import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import WeeklyContentPage from './pages/WeeklyContentPage';
 import ContactPage from './pages/ContactPage';
-import LightRays from './components/LightRays'; // <-- 1. Importamos el nuevo componente
+import LightRays from './components/LightRays';
 
 function App() {
   return (
     <Router>
-      {/* 2. Envolvemos todo en un div relativo para posicionar el fondo */}
       <div className="relative">
 
-        {/* 3. Colocamos el fondo animado. Es fijo y está por detrás de todo (z-0) */}
         <div className="fixed inset-0 z-0 opacity-60">
+          {/* 👇 AQUÍ APLICAMOS TUS NUEVAS CONFIGURACIONES 👇 */}
           <LightRays
-            raysColor="#00E5FF" // Color cian de nuestra paleta
-            raysSpeed={1.2}
-            lightSpread={0.7}
-            rayLength={1.5}
+            raysOrigin="top-center"
+            raysColor="#00ffff" // El color que elegiste
+            raysSpeed={1}
+            lightSpread={2}
+            rayLength={3}
             followMouse={true}
-            mouseInfluence={0.08}
+            mouseInfluence={0.1}
+            noiseAmount={0.05}
+            distortion={0.05}
           />
         </div>
 
-        {/* 4. Todo el contenido original de la app va en un div por encima del fondo (z-10) */}
         <div className="relative z-10 flex flex-col min-h-screen">
           <Header />
           <main className="flex-grow">

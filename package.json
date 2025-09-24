@@ -12,6 +12,7 @@
   "dependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "clsx": "^2.1.1",
+    "gsap": "^3.13.0",
     "lucide-react": "^0.395.0",
     "motion": "^12.23.19",
     "ogl": "^1.0.11",

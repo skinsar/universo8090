@@ -1,9 +1,10 @@
+// src/components/Player.jsx
+
 import { useState, useRef } from 'react';
 import { STREAM_URL, COVER_ART } from '../config';
 import { Play, Pause, Volume2, VolumeX } from 'lucide-react';
 
 const Player = () => {
-  // ... (el resto de la lógica del componente no cambia)
   const [isPlaying, setIsPlaying] = useState(false);
   const [isMuted, setIsMuted] = useState(false);
   const audioRef = useRef(null);
@@ -38,8 +39,13 @@ const Player = () => {
   }
 
   return (
-    // 👇 Fondo eliminado de esta línea 👇
     <section id="player" className="container mx-auto px-6 pt-12 pb-16 md:pt-16 md:pb-24">
+      
+      {/* 👇 NUEVA LÍNEA AÑADIDA 👇 */}
+      <p className="text-center font-semibold text-gray-200 text-lg mb-6 tracking-wider">
+        Lunes a Viernes de 21:00 a 22:00 hs.
+      </p>
+
       <div className="max-w-md mx-auto bg-brand-dark p-6 rounded-lg shadow-2xl border border-brand-purple/30">
         <div className="flex items-center gap-6">
           <img src={COVER_ART} alt="Cover Art" className="w-24 h-24 rounded-md shadow-lg" />

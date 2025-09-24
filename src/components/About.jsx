@@ -1,9 +1,11 @@
+// src/components/About.jsx
+
 import { LOCUTOR_PHOTO, BIO_LOCUTOR } from '../config.js';
 import BlurText from './BlurText';
+import ScrollReveal from './ScrollReveal'; // <-- LA LÍNEA QUE FALTABA
 
 const About = () => {
   return (
-    // 👇 Fondo eliminado de esta línea 👇
     <section id="quien-soy" className="section-container backdrop-blur-sm">
       <BlurText text="Quién Soy" className="section-title" />
       <div className="max-w-4xl mx-auto grid md:grid-cols-3 gap-8 items-center">
@@ -15,9 +17,9 @@ const About = () => {
           />
         </div>
         <div className="md:col-span-2 text-center md:text-left">
-          <p className="text-lg leading-relaxed text-gray-300">
+          <ScrollReveal className="text-lg leading-relaxed text-gray-300">
             {BIO_LOCUTOR}
-          </p>
+          </ScrollReveal>
         </div>
       </div>
     </section>
