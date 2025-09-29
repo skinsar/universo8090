@@ -2,13 +2,13 @@
 
 import { LOCUTOR_PHOTO, BIO_LOCUTOR } from '../config.js';
 import BlurText from './BlurText';
-import ScrollReveal from './ScrollReveal'; // <-- LA LÍNEA QUE FALTABA
+// Ya no necesitamos importar ScrollReveal en este archivo
 
 const About = () => {
   return (
     <section id="quien-soy" className="section-container backdrop-blur-sm">
       <BlurText text="Quién Soy" className="section-title" />
-      <div className="max-w-4xl mx-auto grid md:grid-cols-3 gap-8 items-center">
+      <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
         <div className="md:col-span-1 flex justify-center">
           <img
             src={LOCUTOR_PHOTO}
@@ -17,9 +17,12 @@ const About = () => {
           />
         </div>
         <div className="md:col-span-2 text-center md:text-left">
-          <ScrollReveal className="text-lg leading-relaxed text-gray-300">
+          
+          {/* 👇 AQUÍ ESTÁ EL CAMBIO: Volvimos a usar un <p> normal 👇 */}
+          <p className="text-lg leading-relaxed text-gray-300">
             {BIO_LOCUTOR}
-          </ScrollReveal>
+          </p>
+          
         </div>
       </div>
     </section>

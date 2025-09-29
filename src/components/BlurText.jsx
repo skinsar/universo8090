@@ -1,9 +1,8 @@
-// src/components/BlurText.jsx
-
 import { motion } from 'motion/react';
 import { useEffect, useRef, useState, useMemo } from 'react';
 
 const buildKeyframes = (from, steps) => {
+  // ... (el resto del código del componente no cambia)
   const keys = new Set([...Object.keys(from), ...steps.flatMap(s => Object.keys(s))]);
   const keyframes = {};
   keys.forEach(k => {
@@ -70,7 +69,8 @@ const BlurText = ({
   const times = Array.from({ length: stepCount }, (_, i) => (stepCount === 1 ? 0 : i / (stepCount - 1)));
 
   return (
-    <p ref={ref} className={`blur-text ${className} flex flex-wrap justify-center`}>
+    // 👇 CAMBIO AQUÍ: Añadimos w-full para asegurar que el contenedor se ajuste
+    <p ref={ref} className={`blur-text ${className} w-full flex flex-wrap justify-center`}>
       {elements.map((segment, index) => {
         const animateKeyframes = buildKeyframes(fromSnapshot, toSnapshots);
         const spanTransition = {

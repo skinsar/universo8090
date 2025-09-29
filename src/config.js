@@ -6,7 +6,7 @@ export const CONTACT_EMAIL = import.meta.env.VITE_CONTACT_EMAIL || '';
 export const LOCUTOR_PHOTO = '/assets/placeholder-locutor.jpg';
 export const COVER_ART = '/assets/placeholder-cover.jpg';
 
-export const BIO_LOCUTOR = "Soy Osvaldo Barrera, el anfitrión de Universo 8090. Cada noche, de 21 a 22, te llevo en un viaje por la música y las historias de los 80 y 90. Prepárate para una dosis de anécdotas, datos curiosos y, por supuesto, la mejor música de dos décadas inolvidables.";
+export const BIO_LOCUTOR = "Soy Osvaldo Barrera y te doy la bienvenida a Universo 8090. Cada noche, de 21 a 22, no solo recordamos: redescubrimos los himnos de los 80 y 90. Prepárate para las historias detrás de cada clásico, datos que te sorprenderán y la música que, lejos de ser un recuerdo, sigue más viva que nunca.";
 
 export const WHATSAPP_LINK = WHATSAPP_NUMBER ? `https://wa.me/${WHATSAPP_NUMBER}` : '#';
 export const EMAIL_LINK = CONTACT_EMAIL ? `mailto:${CONTACT_EMAIL}` : '#';
