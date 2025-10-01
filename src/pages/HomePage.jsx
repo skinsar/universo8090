@@ -4,7 +4,7 @@ import Hero from '../components/Hero';
 import Player from '../components/Player';
 import About from '../components/About';
 import Playlist from '../components/Playlist';
-// import Gallery from '../components/Gallery'; // <-- Importación eliminada
+
 import ContactForm from '../components/ContactForm';
 import BlurText from '../components/BlurText';
 
