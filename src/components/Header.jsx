@@ -20,7 +20,7 @@ const Header = () => {
   };
 
   return (
-    // 👇 CAMBIO AQUÍ: Eliminamos "bg-brand-dark/80" 👇
+    
     <header className="backdrop-blur-sm sticky top-0 z-40 border-b border-brand-purple/20">
       <div className="container mx-auto px-6 py-3 flex justify-between items-center">
         <Link to="/" className="flex-shrink-0">
