@@ -20,7 +20,7 @@ module.exports = {
         'glow-magenta': '0 0 15px rgba(255, 45, 149, 0.6)',
         'glow-cyan': '0 0 15px rgba(0, 229, 255, 0.6)',
       },
-      // 👇 AÑADIMOS ESTAS DOS SECCIONES 👇
+
       keyframes: {
         gradient: {
           '0%': { backgroundPosition: '0% 50%' },
