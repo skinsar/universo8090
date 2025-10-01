@@ -14,7 +14,7 @@ function App() {
       <div className="relative">
 
         <div className="fixed inset-0 z-0 opacity-60">
-          {/* 👇 AQUÍ APLICAMOS TUS NUEVAS CONFIGURACIONES 👇 */}
+          
           <LightRays
             raysOrigin="top-center"
             raysColor="#00ffff" // El color que elegiste
