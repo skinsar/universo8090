@@ -2,7 +2,7 @@
 
 import { LOCUTOR_PHOTO, BIO_LOCUTOR } from '../config.js';
 import BlurText from './BlurText';
-import ScrollReveal from './ScrollReveal'; // <-- LA LÍNEA QUE FALTABA
+import ScrollReveal from './ScrollReveal';
 
 const About = () => {
   return (
