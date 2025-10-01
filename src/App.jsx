@@ -17,7 +17,7 @@ function App() {
           
           <LightRays
             raysOrigin="top-center"
-            raysColor="#00ffff" // El color que elegiste
+            raysColor="#00ffff"
             raysSpeed={1}
             lightSpread={2}
             rayLength={3}
