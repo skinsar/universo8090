@@ -15,7 +15,7 @@ const HomePage = () => {
       <Player />
       <About />
       <Playlist />
-      {/* <Gallery /> */} {/* <-- Componente eliminado */}
+      
       <section id="contacto" className="section-container">
         <BlurText text="Participa en el Programa" className="section-title" />
         <ContactForm />
