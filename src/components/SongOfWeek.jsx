@@ -5,12 +5,12 @@ import {
   SONG_OF_WEEK_ARTIST,
   SONG_OF_WEEK_DESCRIPTION
 } from '../config.js';
-import BlurText from './BlurText'; // <-- Importamos el componente
+import BlurText from './BlurText'; 
 
 const SongOfWeek = () => {
   return (
     <section id="cancion-semanal" className="section-container">
-      {/* 👇 Reemplazamos el h2 por BlurText 👇 */}
+      
       <BlurText text="Canción de la Semana" className="section-title" />
       <div className="max-w-4xl mx-auto text-center">
         <p className="text-xl font-bold text-brand-cyan mb-2">{SONG_OF_WEEK_TITLE} - {SONG_OF_WEEK_ARTIST}</p>
