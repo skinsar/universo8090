@@ -41,7 +41,7 @@ const Player = () => {
   return (
     <section id="player" className="container mx-auto px-6 pt-12 pb-16 md:pt-16 md:pb-24">
       
-      {/* 👇 NUEVA LÍNEA AÑADIDA 👇 */}
+      
       <p className="text-center font-semibold text-gray-200 text-lg mb-6 tracking-wider">
         Lunes a Viernes de 21:00 a 22:00 hs.
       </p>
