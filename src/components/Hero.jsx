@@ -1,7 +1,7 @@
 // src/components/Hero.jsx
 
 import GradientText from './GradientText';
-import ScrollReveal from './ScrollReveal'; // <-- LA LÍNEA QUE FALTABA
+import ScrollReveal from './ScrollReveal'; 
 
 const Hero = () => {
   return (
