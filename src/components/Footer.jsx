@@ -1,8 +1,5 @@
 import { Link } from 'react-router-dom';
 
-// NO importamos el logo aquí. Usaremos la ruta como texto.
-// import Logo from '../assets/logo.svg'; 
-
 const Footer = () => {
   return (
     <footer className="bg-gray-900/50 border-t border-brand-purple/20">
