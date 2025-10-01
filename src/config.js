@@ -17,7 +17,7 @@ export const GALLERY_IMAGES = [
 ];
 
 
-export const SONG_OF_WEEK_YOUTUBE_URL = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'; // ¡Reemplaza con tu video de YouTube!
+export const SONG_OF_WEEK_YOUTUBE_URL = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'; 
 export const SONG_OF_WEEK_TITLE = 'Never Gonna Give You Up';
 export const SONG_OF_WEEK_ARTIST = 'Rick Astley';
 export const SONG_OF_WEEK_DESCRIPTION = 'Un ícono de los 80 que se convirtió en un fenómeno de internet. Un clásico infaltable con una línea de bajo inolvidable.'; 
