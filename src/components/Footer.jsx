@@ -1,14 +1,11 @@
 import { Link } from 'react-router-dom';
 
-// NO importamos el logo aquí. Usaremos la ruta como texto.
-// import Logo from '../assets/logo.svg'; 
-
 const Footer = () => {
   return (
     <footer className="bg-gray-900/50 border-t border-brand-purple/20">
       <div className="container mx-auto px-6 py-8 text-center text-gray-400">
         <Link to="/" className="inline-block mb-4">
-          {/* Usamos la ruta directa a la carpeta public */}
+          
           <img src="/assets/logo.svg" alt="Logo Universo 8090" className="h-8" />
         </Link>
         <p className="mb-4">Lunes a Viernes de 21:00 a 22:00 hs.</p>

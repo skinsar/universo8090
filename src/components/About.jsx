@@ -1,8 +1,5 @@
-// src/components/About.jsx
-
 import { LOCUTOR_PHOTO, BIO_LOCUTOR } from '../config.js';
 import BlurText from './BlurText';
-// Ya no necesitamos importar ScrollReveal en este archivo
 
 const About = () => {
   return (
@@ -17,12 +14,9 @@ const About = () => {
           />
         </div>
         <div className="md:col-span-2 text-center md:text-left">
-          
-          {/* 👇 AQUÍ ESTÁ EL CAMBIO: Volvimos a usar un <p> normal 👇 */}
           <p className="text-lg leading-relaxed text-gray-300">
             {BIO_LOCUTOR}
           </p>
-          
         </div>
       </div>
     </section>

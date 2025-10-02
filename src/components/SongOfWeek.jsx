@@ -4,7 +4,17 @@ import { useState, useEffect } from 'react'; // 1. Importamos hooks de React
 import { doc, getDoc } from 'firebase/firestore'; // 2. Importamos funciones de Firestore
 import { db } from '../firebase.js'; // 3. Importamos nuestra conexión a la DB
 import ReactPlayer from 'react-player';
+<<<<<<< HEAD
 import BlurText from './BlurText';
+=======
+import { 
+  SONG_OF_WEEK_YOUTUBE_URL, 
+  SONG_OF_WEEK_TITLE, 
+  SONG_OF_WEEK_ARTIST,
+  SONG_OF_WEEK_DESCRIPTION
+} from '../config.js';
+import BlurText from './BlurText'; 
+>>>>>>> bb0e303f42619ade2c4c65ce5162f0c00d844363
 
 const SongOfWeek = () => {
   // 4. Creamos estados para guardar la canción y saber si está cargando
@@ -55,6 +65,10 @@ const SongOfWeek = () => {
   // 7. Una vez que tenemos los datos, los mostramos
   return (
     <section id="cancion-semanal" className="section-container">
+<<<<<<< HEAD
+=======
+      
+>>>>>>> bb0e303f42619ade2c4c65ce5162f0c00d844363
       <BlurText text="Canción de la Semana" className="section-title" />
       <div className="max-w-4xl mx-auto text-center">
         <p className="text-xl font-bold text-brand-cyan mb-2">{song.title} - {song.artist}</p>

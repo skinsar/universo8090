@@ -1,12 +1,10 @@
-// src/App.jsx
-
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import WeeklyContentPage from './pages/WeeklyContentPage';
 import ContactPage from './pages/ContactPage';
-import AdminPage from './pages/AdminPage'; // <-- IMPORTA LA NUEVA PÁGINA
+import AdminPage from './pages/AdminPage';
 import LightRays from './components/LightRays';
 
 function App() {
@@ -16,10 +14,10 @@ function App() {
         <div className="fixed inset-0 z-0 opacity-60">
           <LightRays
             raysOrigin="top-center"
-            raysColor="#00E5FF"
-            raysSpeed={1.2}
-            lightSpread={0.7}
-            rayLength={1.5}
+            raysColor="#00ffff"
+            raysSpeed={1}
+            lightSpread={2}
+            rayLength={3}
             followMouse={true}
             mouseInfluence={0.08}
           />
@@ -31,7 +29,7 @@ function App() {
               <Route path="/" element={<HomePage />} />
               <Route path="/cancion-semanal" element={<WeeklyContentPage />} />
               <Route path="/contacto" element={<ContactPage />} />
-              <Route path="/admin" element={<AdminPage />} /> {/* <-- AÑADE LA NUEVA RUTA */}
+              <Route path="/admin" element={<AdminPage />} />
             </Routes>
           </main>
           <Footer />

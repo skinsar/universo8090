@@ -2,7 +2,7 @@ import BlurText from './BlurText';
 
 const Playlist = () => {
   return (
-    // 👇 Fondo eliminado de esta línea 👇
+    
     <section id="playlist" className="section-container backdrop-blur-sm">
       <BlurText text="Escucha Nuestros Episodios" className="section-title" />
       <div className="max-w-4xl mx-auto">

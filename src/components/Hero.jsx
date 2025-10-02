@@ -8,7 +8,6 @@ const Hero = () => {
         <GradientText
           colors={["#FF2D95", "#9B6CFC", "#00E5FF", "#9B6CFC", "#FF2D95"]}
           animationSpeed={5}
-          // 👇 CAMBIO AQUÍ: Definimos tamaños de texto para móvil (text-5xl), tablet (md:text-7xl) y escritorio (lg:text-8xl)
           className="font-title text-5xl md:text-7xl lg:text-8xl tracking-widest uppercase"
         >
           Universo 8090

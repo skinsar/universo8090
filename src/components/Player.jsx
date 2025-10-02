@@ -1,5 +1,3 @@
-// src/components/Player.jsx
-
 import { useState, useRef, useEffect } from 'react';
 import { STREAM_URL, COVER_ART } from '../config';
 import { Play, Pause, Volume2, VolumeX, Clock } from 'lucide-react';
@@ -75,8 +73,7 @@ const Player = () => {
           </div>
         </div>
         
-        {/* 👇 CAMBIO AQUÍ: Aumentamos el espacio con gap-8 👇 */}
-        <div className="mt-6 flex items-center justify-center gap-20">
+        <div className="mt-6 flex items-center justify-center gap-8">
           <button 
             onClick={togglePlayPause} 
             className="btn btn-primary p-4 rounded-full disabled:bg-gray-600 disabled:shadow-none disabled:cursor-not-allowed transition-all flex-shrink-0" 
