@@ -6,28 +6,24 @@ import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import WeeklyContentPage from './pages/WeeklyContentPage';
 import ContactPage from './pages/ContactPage';
+import AdminPage from './pages/AdminPage'; // <-- IMPORTA LA NUEVA PÁGINA
 import LightRays from './components/LightRays';
 
 function App() {
   return (
     <Router>
       <div className="relative">
-
         <div className="fixed inset-0 z-0 opacity-60">
-          {/* 👇 AQUÍ APLICAMOS TUS NUEVAS CONFIGURACIONES 👇 */}
           <LightRays
             raysOrigin="top-center"
-            raysColor="#00ffff" // El color que elegiste
-            raysSpeed={1}
-            lightSpread={2}
-            rayLength={3}
+            raysColor="#00E5FF"
+            raysSpeed={1.2}
+            lightSpread={0.7}
+            rayLength={1.5}
             followMouse={true}
-            mouseInfluence={0.1}
-            noiseAmount={0.05}
-            distortion={0.05}
+            mouseInfluence={0.08}
           />
         </div>
-
         <div className="relative z-10 flex flex-col min-h-screen">
           <Header />
           <main className="flex-grow">
@@ -35,11 +31,11 @@ function App() {
               <Route path="/" element={<HomePage />} />
               <Route path="/cancion-semanal" element={<WeeklyContentPage />} />
               <Route path="/contacto" element={<ContactPage />} />
+              <Route path="/admin" element={<AdminPage />} /> {/* <-- AÑADE LA NUEVA RUTA */}
             </Routes>
           </main>
           <Footer />
         </div>
-
       </div>
     </Router>
   );
